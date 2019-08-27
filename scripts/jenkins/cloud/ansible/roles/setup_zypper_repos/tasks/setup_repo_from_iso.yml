@@ -22,7 +22,7 @@
    mode: 0440
   register: download_media
   until: download_media is succeeded
-  retries: 5
+  retries: 333
   delay: 3
 
 - name: Add media as zypper repository
